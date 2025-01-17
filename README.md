@@ -10,8 +10,8 @@
 
 - As bibliotecas utilizadas foram
 
-1. reportWebVitals
-2. BrowswerRouter
+1. reportWebVitals (Usado para medir desempenho da aplicação)
+2. BrowswerRouter (Usado para fazer as rotas entre as paginas do site)
 
 - Foram utilizados os seguintes Hooks:
 
