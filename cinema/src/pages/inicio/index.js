@@ -1,7 +1,5 @@
 import Banner from "components/Banner";
-import Cabecalho from "components/Cabecalho";
 import Card from "components/Card";
-import Rodape from "components/Rodape";
 import Titulo from "components/Titulo";
 import pictures from 'json/db.json';
 import styles from './Inicio.module.css';
@@ -9,7 +7,7 @@ import styles from './Inicio.module.css';
 function Inicio() {
     return (
         <>
-            <Cabecalho />
+            
             <Banner />
             <Titulo>
                 <h1>Filmes em cartaz!</h1>
@@ -19,7 +17,7 @@ function Inicio() {
                     return <Card {...picture} key={picture.id} />
                 })}
             </section>
-            <Rodape />
+            
         </>
     )
 }
