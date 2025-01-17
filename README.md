@@ -8,6 +8,11 @@
 
 ![Organização de pastas](cinema/src/ImagensReadme/OrganizaçãoDasPastas.png)
 
+- As bibliotecas utilizadas foram
+
+1. reportWebVitals
+2. BrowswerRouter
+
 - Foram utilizados os seguintes Hooks:
 
 - Barra de navegação desenvolvida para a navegação entre as paginas do site
