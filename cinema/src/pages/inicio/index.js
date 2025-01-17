@@ -1,11 +1,15 @@
+import Banner from "components/Banner";
 import Cabecalho from "components/Cabecalho";
 import Rodape from "components/Rodape";
 
-function Inicio(){
-    return(
+function Inicio() {
+    return (
         <>
-        <Cabecalho/>
-        <Rodape />
+            <Cabecalho />
+            <Banner />
+            <Rodape />
         </>
     )
-}export default Inicio;
+}
+
+export default Inicio;
