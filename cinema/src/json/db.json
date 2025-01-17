@@ -2,25 +2,25 @@
     {
         "id": 1,
         "titulo": "Ainda estou aqui",
-        "capa": "cinema/src/assets/Ainda_estou_aqui.webp",
+        "capa": "https://upload.wikimedia.org/wikipedia/pt/5/57/Ainda_Estou_Aqui_2024_poster.jpg",
         "link": "https://www.youtube.com/embed/ypvGqZGJBls"
     },
     {
         "id": 2,
-        "titulo": "Um componente no espaço",
-        "capa": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img1.png",
+        "titulo": "Nosferatu",
+        "capa": "https://upload.wikimedia.org/wikipedia/pt/2/29/Nosferatu_%E2%80%93_2024.jpg",
         "link": "https://www.youtube.com/embed/jK0uiQ1ZQQQ"
     },
     {
         "id": 3,
-        "titulo": "O poderoso JavaScript",
-        "capa": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img4.png",
+        "titulo": "Mufasa",
+        "capa": "https://upload.wikimedia.org/wikipedia/pt/thumb/1/1a/Mufasa_P%C3%B4ster.webp/400px-Mufasa_P%C3%B4ster.webp.png",
         "link": "https://www.youtube.com/embed/N1BSG02z-Mw"
     },
     {
         "id": 4,
-        "titulo": "Dart, o Caçador de Andróides",
-        "capa": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img3.png",
+        "titulo": "Sonic 3",
+        "capa": "https://upload.wikimedia.org/wikipedia/pt/8/89/Sonic_The_Hedgehog_3_p%C3%B4ster.png",
         "link": "https://www.youtube.com/embed/LLmBWjF6F8M"
     }
 ]
