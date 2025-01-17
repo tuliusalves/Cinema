@@ -1,0 +1,10 @@
+import styles from './Card.module.css';
+
+function Card({id,titulo,capa}){
+    return(
+        <div className={styles.container}>
+            <img src={capa} alt={titulo} className={styles.capa}></img>
+            <h2>{titulo}</h2>
+        </div>
+    )
+} export default Card;
