@@ -1,21 +1,17 @@
-import Cabecalho from "components/Cabecalho";
-import Container from "components/Container";
-import Rodape from "components/Rodape";
-import CinemasDisponiveis from "pages/CinemasDisponiveis";
-import Inicio from "pages/inicio";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Header from "components/Logo";
+import styled from "styled-components";
+
+const AppContainer = styled.div`
+    width:100vw;
+    height:100vh;
+    background-color: #313331
+`
 
 function AppRoutes() {
     return (
-        <BrowserRouter>
-            <Cabecalho />
-                <Container>
-                <Routes>
-                    <Route path='/' element={<Inicio />}></Route>
-                    <Route path="/CinemasDisponiveis" element={<CinemasDisponiveis />}></Route>
-                </Routes>
-                </Container>
-            <Rodape />
-        </BrowserRouter>
+        <AppContainer>
+            <Header/>
+        </AppContainer>
     )
 } export default AppRoutes;

@@ -1,11 +1,27 @@
+
+import Header from 'components/Header';
 import './App.css';
 import React from 'react';
+import styled from 'styled-components';
+
+const AppContainer = styled.div`
+    width:100vw;
+    height:100vh;
+    background-color: #313331;
+
+    display: flex;
+    justify-content: center;
+    color:#FFFF;
+
+`
 
 function App() {
   return (
-    <div >
-     <h3>Oi</h3>
-    </div>
+    
+        <AppContainer>
+            <Header/>
+        </AppContainer>
+    
   );
 }
 
