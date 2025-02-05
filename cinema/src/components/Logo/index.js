@@ -7,7 +7,8 @@ const LogoContainer = styled.div`
     padding-right:270px;
 `
 const LogoImage = styled.img`
-    margin-right:10px;
+    
+    margin:5px 10px; 0 0;
     width:72px;
     height:72px;
 `

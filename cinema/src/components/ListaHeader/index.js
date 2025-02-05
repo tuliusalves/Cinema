@@ -6,7 +6,7 @@ const Lista = styled.ul`
     margin:0 14px;
 `
 const Elemento = styled.a`
-    margin-right:70px;
+    margin-right:72px;
     width:25px;
     font-size:24px;
 
@@ -14,6 +14,10 @@ const Elemento = styled.a`
         color:#FFFF;
         list-style:none;
         text-decoration:none;
+    }
+
+    a:hover{
+        text-decoration:underline;
     }
 `
 
@@ -23,7 +27,7 @@ function ListaHeader(){
     return(
         <Lista>
             {palavras.map((palavra) => (
-                <Elemento> <a href='./'>{palavra}</a></Elemento>
+                <Elemento><strong> <a href='./'>{palavra}</a></strong></Elemento>
             ))}
         </Lista>
     )
