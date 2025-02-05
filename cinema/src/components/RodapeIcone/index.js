@@ -6,7 +6,7 @@ import styled from 'styled-components';
 const ListaIcones= styled.ul`
     display:flex;
     width:40vh;
-    margin:0 10px;
+    margin:15px 10px;
 
 `
 const IconesMidia = styled.a`
