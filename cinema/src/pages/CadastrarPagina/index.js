@@ -7,8 +7,8 @@ import styled from 'styled-components';
 import MainDivCadastrar from 'components/MainDivCadastrar';
 
 const AppContainer = styled.div`
-    width:100vw;
-    height:100vh;
+    width:100%;
+    
     background-color: #313331;
     padding-bottom:100px;
     display: flex;
@@ -20,6 +20,7 @@ const AppContainer = styled.div`
 `
 const AppContainerMain = styled.div`
     margin-top:50px;
+    width:90%;
 `
 
 function CadastrarPagina() {

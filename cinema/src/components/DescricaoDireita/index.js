@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 const Descricao = styled.div`
-    width:40vw;
-    height:273px;
+    width:38%;
+    height:265px;
     border-radius:25px;
     background-color:rgba(49,51,51,0.34);
     margin: 0 0 0 20px;
@@ -12,7 +12,7 @@ const Descricao = styled.div`
    
 `
 const TextoDescricao = styled.div`
-    width:35vw;
+    width:100%;
     height:100px;
     margin-top:20px;
     text-align:center;

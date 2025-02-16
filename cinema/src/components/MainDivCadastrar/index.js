@@ -4,8 +4,7 @@ import Rodape from "components/Rodape";
 import styled from "styled-components";
 
 const MainContainer = styled.div `
-    width:90vw;
-    height:85vh;
+    width:100%;
     background-color: #1E1E1E;
     border-radius:25px;
 
@@ -13,12 +12,11 @@ const MainContainer = styled.div `
     flex-direction:column;
     justify-content:space-between;
     align-items:center;
-   
+    
 `
 const MainContainerElements = styled.div`
-    width:50vw;
-    height:55vh;
-    margin-top:70px;
+    width:70%;
+    margin:70px 0 70px 0;
     border-radius:25px;
     display:flex;
     flex-direction:row;

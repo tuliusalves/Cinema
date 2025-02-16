@@ -2,8 +2,8 @@ import styled from "styled-components";
 import cinemaImagem from '../../assets/Interno_SalaCinema-2-850x475.jpg';
 
 const ImagemEsquerda = styled.div`
-    width:40vw;
-    height:400px;
+    width:45vw;
+    height:350px;
     background-image: url(${cinemaImagem});
     background-size:cover;
     background-position:center;

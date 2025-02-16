@@ -6,10 +6,9 @@ import styled from 'styled-components';
 import MainDiv from 'components/MainDiv';
 
 const AppContainer = styled.div`
-    width:100vw;
-    height:100vh;
+    width:100%;
     background-color: #313331;
-    padding-bottom:100px;
+    padding-bottom:10px;
     display: flex;
     justify-content: center;
     flex-direction:column;

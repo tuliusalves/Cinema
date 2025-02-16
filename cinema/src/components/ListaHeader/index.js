@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 const Lista = styled.ul`
     display:flex;
+    width:40%;
     align-items:center;
     margin:0 14px;
 `
