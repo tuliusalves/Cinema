@@ -19,7 +19,6 @@ const MainContainerElements = styled.div`
     display:flex;
     flex-direction:row;
     align-items:center;
-    border:1px solid #ffff;
 `
 
 function MainDiv(){

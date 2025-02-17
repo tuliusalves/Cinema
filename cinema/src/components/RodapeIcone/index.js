@@ -5,12 +5,12 @@ import styled from 'styled-components';
 
 const ListaIcones= styled.ul`
     display:flex;
-    width:40vh;
+    width:100%;
     margin:15px 10px;
 
 `
 const IconesMidia = styled.a`
-    marigin-right: 10px;
+    
 
     img{
     height:50px;
