@@ -6,9 +6,9 @@ import "./index.css";
 import LoginPagina from "pages/LoginPagina";
 import CadastrarPagina from "pages/CadastrarPagina";
 import Home from "pages/HomePage";
-import Listafilmes from "pages/FilmesPagina/filmes";
+import Listafilmes from "pages/FilmesPagina";
 import CinemasDisponiveis from "pages/CinemasDisponiveis";
-import ListaCriticas from "pages/Criticas/criticasusuarios";
+import ListaCriticas from "pages/Criticas";
 
 import Layout from "components/Layout/Layout";
 import { BrowserRouter, Routes, Route } from "react-router-dom";

@@ -1,10 +1,9 @@
 import Header from "components/Header";
 import React from "react";
 import styled from "styled-components";
-import MainDiv from "components/MainDiv";
+//import MainDiv from "components/MainDiv";
 import Rodape from "components/Rodape";
-import MainImage from "components/MainImage";
-import { Link } from "react-router-dom";
+//import MainImage from "components/MainImage";
 
 const AppContainer = styled.div`
   width: 100vw;
@@ -21,15 +20,13 @@ const AppContainerMain = styled.div`
   margin-top: 50px;
 `;
 
-function Listafilmes() {
+function ListaCriticas() {
   return (
     <div>
       <AppContainer>
         <Header />
         <AppContainerMain>
           {/*Inserir conteudo do pagina aqui*/}
-          <Link to="/filmes/criticas">Críticas dos Usuários</Link>
-          <Link to="/filmes/cinemas">Cinemas Disponíveis</Link>
         </AppContainerMain>
         <Rodape />
       </AppContainer>
@@ -37,4 +34,4 @@ function Listafilmes() {
   );
 }
 
-export default Listafilmes;
+export default ListaCriticas;

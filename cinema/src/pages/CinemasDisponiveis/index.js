@@ -2,6 +2,9 @@ import styled from "styled-components";
 import Card from "components/Cards/Card";
 import Header from "components/Header";
 import Rodape from "components/Rodape";
+import MainDiv from "components/MainDiv";
+import React from "react";
+
 
 const AppContainer = styled.div`
   width: 100vw;
@@ -20,28 +23,12 @@ const AppContainerMain = styled.div`
 
 function CinemasDisponiveis() {
   return (
-    <div>
-      <AppContainer>
+    <AppContainer>
         <Header />
-        <h1>Cinemas Disponíveis</h1>
-
         <AppContainerMain>
-          <section className={styled.container}>
-            <Card
-              id="1"
-              titulo="Cine plaza"
-              capa="https://www.ucicinemas.com.br/Content/PublicSite/images/cinemas/Slide/14/Slide_1.jpg"
-            ></Card>
-            <Card
-              id="2"
-              titulo="Cine Recife"
-              capa="https://www.ucicinemas.com.br/Content/PublicSite/images/cinemas/Slide/22/Slide_1.jpg"
-            ></Card>
-          </section>
-          <Rodape />
+          
         </AppContainerMain>
       </AppContainer>
-    </div>
   );
 }
 
