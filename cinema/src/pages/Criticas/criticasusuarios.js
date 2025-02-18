@@ -2,6 +2,8 @@ import Header from "components/Header";
 import React from "react";
 import styled from "styled-components";
 import MainDiv from "components/MainDiv";
+import Rodape from "components/Rodape";
+import MainImage from "components/MainImage";
 
 const AppContainer = styled.div`
   width: 100vw;
@@ -18,17 +20,18 @@ const AppContainerMain = styled.div`
   margin-top: 50px;
 `;
 
-function Home() {
+function ListaCriticas() {
   return (
     <div>
       <AppContainer>
         <Header />
         <AppContainerMain>
-          <MainDiv />
+          {/*Inserir conteudo do pagina aqui*/}
         </AppContainerMain>
+        <Rodape />
       </AppContainer>
     </div>
   );
 }
 
-export default Home;
+export default ListaCriticas;
