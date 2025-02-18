@@ -29,8 +29,8 @@ function Listafilmes() {
         <Header />
         <AppContainerMain>
           {/*Inserir conteudo do pagina aqui*/}
-          <Link to="/filmes/criticas">Críticas dos Usuários</Link>
-          <Link to="/filmes/cinemas">Cinemas Disponíveis</Link>
+          <Link to="/filmes/criticas"><button>Críticas dos Usuários </button> </Link>
+          <Link to="/filmes/cinemas"><button>Cinemas Disponíveis</button></Link>
         </AppContainerMain>
         <Rodape />
       </AppContainer>
