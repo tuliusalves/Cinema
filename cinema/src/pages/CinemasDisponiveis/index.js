@@ -26,7 +26,9 @@ function CinemasDisponiveis() {
     <AppContainer>
         <Header />
         <AppContainerMain>
-          
+          <button onClick={() => window.open("https://www.shoppingrecife.com.br/cinema", "_blank", "noopener noreferrer")}> Shopping Recife </button>
+          <button onClick={() => window.open("https://www.shoppingtacaruna.com.br/cinema")}> Shopping Tacaruna</button>
+          <button onClick={() => window.open("https://www.plazacasaforte.com.br/cinema/caindo-na-real", "_blank", "noopener noreferrer")}> Shopping Plaza </button>
         </AppContainerMain>
       </AppContainer>
   );
