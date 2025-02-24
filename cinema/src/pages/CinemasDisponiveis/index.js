@@ -72,29 +72,32 @@ const ShoppingTitulo= styled.h3`
 function CinemasDisponiveis() {
   return (
     <div>
-       <AppContainer>
-            <Header/>
-            <AppContainerMain>
-             <MainContainer>
-              <TituloPagina>CinemasDisponiveis</TituloPagina>
-              <ShoppingContainer>
-                <ShoppingCard>
-                  <ShoppingTitulo>Shopping Tacaruna</ShoppingTitulo>
-                  <ShoppingImg src={Tacaruna} alt="Tacaruna"></ShoppingImg>
-                </ShoppingCard>
-                <ShoppingCard>
-                  <ShoppingTitulo>Shopping Recife</ShoppingTitulo>
-                  <ShoppingImg src={Recife} alt="Recife"></ShoppingImg>
-                </ShoppingCard>
-                <ShoppingCard>
-                  <ShoppingTitulo>Shopping Plaza</ShoppingTitulo>
-                  <ShoppingImg src={Plaza} alt="Plaza"></ShoppingImg>
-                </ShoppingCard>
-               </ShoppingContainer> 
-              <Rodape/>
-             </MainContainer>
-            </AppContainerMain> 
-        </AppContainer>
+      <AppContainer>
+        <Header />
+        <AppContainerMain>
+          <MainContainer>
+            <TituloPagina>CinemasDisponiveis</TituloPagina>
+            <ShoppingContainer>
+              <ShoppingCard>
+                <ShoppingTitulo>Shopping Tacaruna</ShoppingTitulo>
+                <ShoppingImg src={Tacaruna} alt="Tacaruna" />
+                <button onClick={() => window.open('https://www.shoppingtacaruna.com.br/cinema','_blank','noopener noreferrer' ) }>Ver Cinema </button>
+              </ShoppingCard>
+              <ShoppingCard>
+                <ShoppingTitulo>Shopping Recife</ShoppingTitulo>
+                <ShoppingImg src={Recife} alt="Recife" />
+                <button onClick={() => window.open('https://www.shoppingrecife.com.br/cinema','_blank', 'noopener noreferrer' ) } > Ver Cinema </button>
+              </ShoppingCard>
+              <ShoppingCard>
+                <ShoppingTitulo>Shopping Plaza</ShoppingTitulo>
+                <ShoppingImg src={Plaza} alt="Plaza" />
+                <button onClick={() => window.open('https://www.plazacasaforte.com.br/cinema','_blank', 'noopener noreferrer' )}> Ver Cinema </button>
+              </ShoppingCard>
+            </ShoppingContainer>
+            <Rodape />
+          </MainContainer>
+        </AppContainerMain>
+      </AppContainer>
     </div>
   );
 }
