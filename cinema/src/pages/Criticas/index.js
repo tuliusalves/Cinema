@@ -1,15 +1,14 @@
 import Header from "components/Header";
 import React from "react";
 import styled from "styled-components";
-//import MainDiv from "components/MainDiv";
+import MainDiv from "components/MainDiv";
 import Rodape from "components/Rodape";
+import MainDivCriticas from "components/MainDivCriticas";
 //import MainImage from "components/MainImage";
 
 const AppContainer = styled.div`
   width: 100vw;
-  height: 100vh;
   background-color: #313331;
-  padding-bottom: 100px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -23,12 +22,11 @@ const AppContainerMain = styled.div`
 function ListaCriticas() {
   return (
     <div>
-      <AppContainer>
+     <AppContainer>
         <Header />
         <AppContainerMain>
-          {/*Inserir conteudo do pagina aqui*/}
+          <MainDivCriticas />
         </AppContainerMain>
-        <Rodape />
       </AppContainer>
     </div>
   );
