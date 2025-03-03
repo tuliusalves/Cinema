@@ -14,7 +14,7 @@ const MainContainer = styled.div `
     
 `
 const MainContainerElements = styled.div`
-    width:50%;
+    width:30rem;
     margin:120px auto 100px auto ;
     border-radius:25px;
     display:flex;

@@ -5,9 +5,7 @@ import MainDiv from "components/MainDiv";
 
 const AppContainer = styled.div`
   width: 100vw;
-  height: 100vh;
   background-color: #313331;
-  padding-bottom: 100px;
   display: flex;
   justify-content: center;
   flex-direction: column;

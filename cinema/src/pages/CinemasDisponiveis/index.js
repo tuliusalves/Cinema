@@ -38,10 +38,9 @@ const TituloPagina= styled.h3`
      margin-top:68px;
 `
 const ShoppingContainer = styled.div`
-    width:850px;
+    width:55rem;
     background-size:cover;
     border-radius:25px;
-    border: solid 1px #ffff;
     display:flex;
     flex-direction: row;
     align-items: center;
@@ -49,8 +48,8 @@ const ShoppingContainer = styled.div`
 `
 //Colocar alinhados em linha
 const ShoppingCard = styled.div`
-    width:271px;
-    height:230px;
+    width:16rem;
+    height:13rem;
     background-size:cover;
     align-items:center;
     border-radius:25px;
@@ -77,7 +76,7 @@ function CinemasDisponiveis() {
             <Header/>
             <AppContainerMain>
              <MainContainer>
-              <TituloPagina>CinemasDisponiveis</TituloPagina>
+              <TituloPagina>Cinemas Disponiveis</TituloPagina>
               <ShoppingContainer>
                 <ShoppingCard>
                   <ShoppingTitulo>Shopping Tacaruna</ShoppingTitulo>

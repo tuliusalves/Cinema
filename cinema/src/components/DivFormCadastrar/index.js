@@ -60,7 +60,7 @@ const InputSpan = styled.span`
 const Button = styled.button`
     background-color: #1E1E1E;
     color:#ffff;
-    width:10vw;
+    width:8rem;
     padding:10px;
     margin:10px auto auto auto;
     border-radius:25px;

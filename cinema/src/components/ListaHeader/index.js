@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Lista = styled.ul`
   display: flex;
-  width: 40%;
+  width: 43%;
   align-items: center;
   margin: 0 14px;
 `;

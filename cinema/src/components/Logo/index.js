@@ -4,7 +4,7 @@ import logo from '../../assets/film.png';
 const LogoContainer = styled.div`
     display:flex;
     font-size:30px;
-    width:45%;
+    width:25rem;
 `
 const LogoImage = styled.img`
     
