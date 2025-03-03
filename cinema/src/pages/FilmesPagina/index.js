@@ -1,17 +1,13 @@
 import Header from "components/Header";
 import React from "react";
 import styled from "styled-components";
-//import MainDiv from "components/MainDiv";
-import Rodape from "components/Rodape";
-//
-// import MainImage from "components/MainImage";
-import { Link } from "react-router-dom";
+import MainDivCriticas from "components/MainDivCriticas";
+import MainFilmesAcervo from "components/MainFilmesAcervo";
+//import MainImage from "components/MainImage";
 
 const AppContainer = styled.div`
   width: 100vw;
-  height: 100vh;
   background-color: #313331;
-  padding-bottom: 100px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -22,20 +18,17 @@ const AppContainerMain = styled.div`
   margin-top: 50px;
 `;
 
-function Listafilmes() {
+function FilmesPagina() {
   return (
     <div>
-      <AppContainer>
+     <AppContainer>
         <Header />
         <AppContainerMain>
-          {/*Inserir conteudo do pagina aqui*/}
-          <Link to="/filmes/criticas"><button>Críticas dos Usuários </button> </Link>
-          <Link to="/filmes/cinemas"><button>Cinemas Disponíveis</button></Link>
+          <MainFilmesAcervo />
         </AppContainerMain>
-        <Rodape />
       </AppContainer>
     </div>
   );
 }
 
-export default Listafilmes;
+export default FilmesPagina;

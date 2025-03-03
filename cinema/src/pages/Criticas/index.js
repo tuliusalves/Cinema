@@ -1,8 +1,6 @@
 import Header from "components/Header";
 import React from "react";
 import styled from "styled-components";
-import MainDiv from "components/MainDiv";
-import Rodape from "components/Rodape";
 import MainDivCriticas from "components/MainDivCriticas";
 //import MainImage from "components/MainImage";
 

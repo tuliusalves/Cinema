@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import cinemaImagem from '../../assets/Interno_SalaCinema-2-850x475.jpg';
-import aindaEstouAqui from '../../assets/Ainda estou aqui.webp';
+import aindaEstouAqui from '../../assets/Ainda_estou_aqui.webp';
 
 const SinopseEsquerda = styled.div`
     width:28rem;
