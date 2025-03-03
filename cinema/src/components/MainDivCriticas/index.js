@@ -1,5 +1,5 @@
-import DescricaoDireita from "components/DescricaoDireita";
-import MainImage from "components/MainImage";
+import MainDivComentarios from "components/MainDivComentarios";
+import MainFilmeSinopse from "components/MainFilmeSinopse";
 import Rodape from "components/Rodape";
 import styled from "styled-components";
 
@@ -25,8 +25,8 @@ function MainDivCriticas() {
   return (
     <MainContainer>
       <MainContainerElements>
-        <MainImage />
-        <DescricaoDireita />
+        <MainFilmeSinopse />
+        <MainDivComentarios />
       </MainContainerElements>
       <Rodape />
     </MainContainer>
