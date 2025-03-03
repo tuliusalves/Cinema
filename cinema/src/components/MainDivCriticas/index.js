@@ -15,15 +15,18 @@ const MainContainer = styled.div`
 `;
 const MainContainerElements = styled.div`
   width: 100%;
-  margin: 120px;
+  margin: 40px 120px 120px 120px;
   display: flex;
   flex-direction: row;
   align-items: center;
 `;
-
+const TituloPagina = styled.h2`
+    margin:60px auto auto auto;
+`
 function MainDivCriticas() {
   return (
     <MainContainer>
+      <TituloPagina>Críticas dos usuários</TituloPagina>
       <MainContainerElements>
         <MainFilmeSinopse />
         <MainDivComentarios />

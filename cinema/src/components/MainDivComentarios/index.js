@@ -8,29 +8,53 @@ const Descricao = styled.div`
     margin: 0 0 0 20px;
     display:flex;
     justify-content:center;
-    
+    overflow-y:auto;
+    overflow-x:hidden;
    
+    &::-webkit-scrollbar{
+    width:10px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 4px; 
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+    background-color: #555; 
+    }
 `
 const TextoDescricao = styled.div`
     width:100%;
-    height:100px;
-    margin-top:20px;
+    height:auto;
+    margin:30px 15px 0 20px;
     text-align:center;
     justify-content:center;
     align-items:center;
-`
+    text-align:left;
 
+`
+const NomeUsuario = styled.div`
+    text-align:left;
+    font-weight:bold;
+`
 
 function MainDivComentarios(){
     return(
         <Descricao>
             <TextoDescricao>
-            <h2>Bem vindo</h2>
-            <p>Mussum Ipsum, cacilds vidis litro abertis. Vehicula non. Ut sed ex eros.
-            achaça, agora eu só uso canudis! Mauris nec dolor in eros commodo tempor. Aenean aliq
-            achaça, agora eu só uso canudis! Mauris nec dolor in eros commodo tempor. Aenean aliq
-            achaça, agora eu só uso canudis! Mauris nec dolor in eros commodo tempor. Aenean aliq
-            </p>
+            <NomeUsuario>@Usuario1</NomeUsuario>
+            <p>Rio de Janeiro, início dos anos 1970. O país enfrenta o endurecimento da ditadura militar.</p>
+            
+            <NomeUsuario>@Usuario2</NomeUsuario>
+            <p>Rio de Janeiro, início dos anos 1970. O país enfrenta o endurecimento da ditadura militar.</p>
+            
+            <NomeUsuario>@Usuario3</NomeUsuario>
+            <p>Rio de Janeiro, início dos anos 1970. O país enfrenta o endurecimento da ditadura militar.</p>
+            
+            <NomeUsuario>@Usuario4</NomeUsuario>
+            <p>Rio de Janeiro, início dos anos 1970. O país enfrenta o endurecimento da ditadura militar.</p>
+            
             </TextoDescricao>
         </Descricao>    
     )

@@ -70,7 +70,7 @@ function MainFilmeSinopse(){
             <Sinopse> Sinopse:</Sinopse>
             <Descricao>Rio de Janeiro, início dos anos 1970.
              O país enfrenta o endurecimento da ditadura militar.</Descricao>
-             <LinkDescricao href="">mais...</LinkDescricao>
+             <LinkDescricao href="/filmes/criticas">mais...</LinkDescricao>
             </SinopseContainer>
             <br></br>
             <LinksLista>
