@@ -1,6 +1,4 @@
 import Cards from "components/Cards";
-import MainDivComentarios from "components/MainDivComentarios";
-import MainFilmeSinopse from "components/MainFilmeSinopse";
 import Rodape from "components/Rodape";
 import styled from "styled-components";
 
