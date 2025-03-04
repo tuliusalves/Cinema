@@ -17,6 +17,7 @@ const Elemento = styled.a`
     color: #ffff;
     list-style: none;
     text-decoration: none;
+    font-weight:bold;
   }
 
   a:hover {

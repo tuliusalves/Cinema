@@ -49,7 +49,7 @@ const ShoppingContainer = styled.div`
 //Colocar alinhados em linha
 const ShoppingCard = styled.div`
     width:16rem;
-    height:13rem;
+    height:15rem;
     background-size:cover;
     align-items:center;
     border-radius:25px;
@@ -68,6 +68,24 @@ const ShoppingTitulo= styled.h3`
     font-size:16px;
     margin-top:28px;
 `
+const Button = styled.button`
+    background-color: #1E1E1E;
+    color:#ffff;
+    width:8rem;
+    padding:5px;
+    margin:2px auto auto auto;
+    border-radius:25px;
+    border: 1px solid white;
+    justify-content:center;
+
+    &:hover{
+    box-shadow: 0 8px 2px rgba(0,0,0,1);
+    }
+    a{
+      color:white;
+      text-decoration:none;
+    }
+`
 
 function CinemasDisponiveis() {
   return (
@@ -81,14 +99,17 @@ function CinemasDisponiveis() {
                 <ShoppingCard>
                   <ShoppingTitulo>Shopping Tacaruna</ShoppingTitulo>
                   <ShoppingImg src={Tacaruna} alt="Tacaruna"></ShoppingImg>
+                  <Button><a href="https://www.shoppingtacaruna.com.br/cinema" target="_blank">Página do cinema</a></Button>
                 </ShoppingCard>
                 <ShoppingCard>
                   <ShoppingTitulo>Shopping Recife</ShoppingTitulo>
                   <ShoppingImg src={Recife} alt="Recife"></ShoppingImg>
+                  <Button><a href="https://www.shoppingrecife.com.br/cinema" target="_blank">Página do cinema</a></Button>
                 </ShoppingCard>
                 <ShoppingCard>
                   <ShoppingTitulo>Shopping Plaza</ShoppingTitulo>
                   <ShoppingImg src={Plaza} alt="Plaza"></ShoppingImg>
+                  <Button><a href="https://www.plazacasaforte.com.br/cinema" target="_blank">Página do cinema</a></Button>
                 </ShoppingCard>
                </ShoppingContainer> 
               <Rodape/>

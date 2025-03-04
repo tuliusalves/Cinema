@@ -10,10 +10,10 @@ import Mickey17 from '../../assets/capa-mickey-17.jpg';
 import Flow from '../../assets/flow.jpeg';
 
 const cardsData = [
-  { id: 1, title: 'Ainda Estou Aqui', synopsis: 'Rio de Janeiro, início dos anos 1970. O país enfrenta o endurecimento da ditadura militar.', image: AindaEstouAqui },
-  { id: 2, title: 'Nosferatu', synopsis: 'Sinopse do filme Nosferatu.', image: Nosferatu },
-  { id: 3, title: 'Anora', synopsis: 'Sinopse do filme Anora.', image: Anora },
-  { id: 4, title: 'Maria Callas', synopsis: 'Sinopse do filme Maria Callas.', image: MariaCallas },
+  { id: 1, title: 'Ainda Estou Aqui', synopsis: 'Rio de Janeiro, início dos anos 1970. O país enfrenta o endurecimento da ditadura militar...', image: AindaEstouAqui },
+  { id: 2, title: 'Nosferatu', synopsis: 'Uma jovem noiva é deixada sob os cuidados de amigos quando seu marido viaja para a Transilvânia...', image: Nosferatu },
+  { id: 3, title: 'Anora', synopsis: 'Anora, uma profissional do sexo do Brooklyn, conhece e se casa com o filho de um oligarca...', image: Anora },
+  { id: 4, title: 'Maria Callas', synopsis: 'A famosa cantora de ópera Maria Callas se muda para Paris na década de 1970 depois de uma vida...', image: MariaCallas },
   { id: 5, title: 'Mickey17', synopsis: 'Sinopse do filme Mickey 17.', image: Mickey17 },
   { id: 6, title: 'Sonic3', synopsis: 'Sinopse do filme Sonic 3.', image: Sonic3 },
   { id: 7, title: 'Flow', synopsis: 'Sinopse do filme Flow.', image: Flow },

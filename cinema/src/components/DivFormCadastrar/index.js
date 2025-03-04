@@ -48,6 +48,7 @@ const Input = styled.input`
     text-align:left;
     border-radius:25px;
     
+    
 `
 const InputCheckbox = styled.input`
     margin-top:5px;
@@ -66,6 +67,10 @@ const Button = styled.button`
     border-radius:25px;
     border: 1px solid white;
     justify-content:center;
+
+    &:hover{
+    box-shadow: 0 8px 2px rgba(0,0,0,1);
+    }
 `
 function DivFormCadastrar(){
     return(   

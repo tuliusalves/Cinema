@@ -21,6 +21,8 @@ const Input = styled.input`
     color:#ffff;
     text-align:center;
     border-radius:25px;
+
+   
     
 `
 
@@ -33,6 +35,10 @@ const Button = styled.button`
     border-radius:25px;
     border: 1px solid white;
     justify-content:center;
+
+    &:hover{
+    box-shadow: 0 8px 2px rgba(0,0,0,1);
+    }
 `
 function DivForm(){
     return(
