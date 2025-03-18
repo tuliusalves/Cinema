@@ -19,6 +19,7 @@ const MainContainerElements = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content:center;
 `;
 const TituloPagina = styled.h2`
     margin:60px auto auto auto;

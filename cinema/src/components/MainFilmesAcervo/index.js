@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 
 const MainContainer = styled.div`
-  width: 90%;
+  width: 1350px;
   background-color: #1e1e1e;
   border-radius: 25px;
   display: flex;
@@ -15,10 +15,11 @@ const MainContainer = styled.div`
 `;
 const MainContainerElements = styled.div`
   width: 100%;
-  margin: 40px 120px 120px 120px;
+  margin: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content:center;u
 `;
 const TituloPagina = styled.h2`
     margin:60px auto auto auto;
