@@ -17,19 +17,19 @@
 ## BIBLIOTECAS UTILIZADAS
 
 ### Styled Components
-Essa biblioteca permite utilizar comandos de CSS diretamente no JavaScript 
+- Essa biblioteca permite utilizar comandos de CSS diretamente no JavaScript 
 
 ![Homepage](cinema\src\ImagensReadme\HomePage.png)
 
 ### React Router Dom
-Atraves dessa biblioteca e possivel configurar as rotas de navegação do site 
+- Atraves dessa biblioteca e possivel configurar as rotas de navegação do site 
 
 ![Rotas do site](cinema\src\ImagensReadme\RotasDoSite.png)
 
 ## HOOKS UTILIZADOS
 
-### USESTATES 
-Com ele é possivel criar e gerenciar o estado local de um componente funcional 
+### UsesStates
+- Com ele é possivel criar e gerenciar o estado local de um componente funcional 
 ![Aba 1 de filmes](cinema\src\ImagensReadme\FilmesAba1.png)
 ![Aba 2 de filmes](cinema\src\ImagensReadme\FilmesAba2.png)
 
@@ -38,16 +38,16 @@ Com ele é possivel criar e gerenciar o estado local de um componente funcional
 
 As rotas do site: 
 
-/ - Pagina inicial 
-/filmes - Pagina de filmes em cartaz
-/filmes/cinemas - Pagina de cinemas disponiveis
-/filmes/criticas - Pagina de criticas contendo o depoimento de clientes
-/login - Pagina de login do usuário
-/cadastro - Pagina para o usuário realizar seu cadastro
+- / - Pagina inicial 
+- /filmes - Pagina de filmes em cartaz
+- /filmes/cinemas - Pagina de cinemas disponiveis
+- /filmes/criticas - Pagina de criticas contendo o depoimento de clientes
+- /login - Pagina de login do usuário
+- /cadastro - Pagina para o usuário realizar seu cadastro
 
 ![Rotas do site](cinema\src\ImagensReadme\RotasDoSite.png)
 
-### DIAGRAMA COM A ROTAS DO SITE
+### Diagrama com as rotas do site
 
 ![Rotas dos site](cinema\src\ImagensReadme\DiagramaDeRotas.png)
 
