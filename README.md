@@ -28,26 +28,26 @@
 
 * Na página de login, o usuário poderá usar as suas informações para entrar no sistema.
 
-![Organziação das pastas](cinema\src\ImagensReadme\Organização.png)
+![Organziação das pastas](cinema/src/ImagensReadme/Organização.png)
 
 ## 4. BIBLIOTECAS UTILIZADAS
 
 ### Styled Components
 - Essa biblioteca permite utilizar comandos de CSS diretamente no JavaScript 
 
-![Homepage](cinema\src\ImagensReadme\HomePage.png)
+![Homepage](cinema/src/ImagensReadme/HomePage.png)
 
 ### React Router Dom
 - Através dessa biblioteca e possível configurar as rotas de navegação do site 
 
-![Rotas do site](cinema\src\ImagensReadme\RotasDoSite.png)
+![Rotas do site](cinema/src/ImagensReadme/RotasDoSite.png)
 
 ## 5. HOOKS UTILIZADOS
 
 ### UsesStates
 - Com ele é possível criar e gerenciar o estado local de um componente funcional 
-![Aba 1 de filmes](cinema\src\ImagensReadme\FilmesAba1.png)
-![Aba 2 de filmes](cinema\src\ImagensReadme\FilmesAba2.png)
+![Aba 1 de filmes](cinema/src/ImagensReadme/FilmesAba1.png)
+![Aba 2 de filmes](cinema/src/ImagensReadme/FilmesAba2.png)
 
 ## 6. ESTRUTURA DE NAVEGAÇÃO
 
@@ -60,11 +60,11 @@ As rotas do site:
 - /login - Página de login do usuário
 - /cadastro - Página para o usuário realizar seu cadastro
 
-![Rotas do site](cinema\src\ImagensReadme\RotasDoSite.png)
+![Rotas do site](cinema/src/ImagensReadme/RotasDoSite.png)
 
 ### Diagrama com as rotas do site
 
-![Rotas dos site](cinema\src\ImagensReadme\DiagramaDeRotas.png)
+![Rotas dos site](cinema/src/ImagensReadme/DiagramaDeRotas.png)
 
 ### Barra de navegação desenvolvida para a navegação entre as páginas do site
 
